@@ -1,4 +1,4 @@
-I# Monty Interpreter
+# Monty Interpreter
 A language interpreter made in the C programming language to manage stacks and queues (LIFO and FIFO). The aim is to interpret Monty bytecodes files. Monty is a language that aims to close the gap between scripting and programming languages.
 ## Requirements
 - Allowed editors: vi, vim, emacs
@@ -18,8 +18,9 @@ To compile this project, you can use the following command:
 
 <sub>$ make</sub>
 ## Allowable opcodes and what they do
-opcode	functionality
-push	add element to the 'top' of stack and 'end' of queue
+|opcode	| functionality|
+|------ | -------------|
+|push | add element to the 'top' of stack and 'end' of queue|
 pop	remove element from 'top' of stack and 'end' of queue
 pall	print every member of the structure
 pint	prints the member value at the top of stack
