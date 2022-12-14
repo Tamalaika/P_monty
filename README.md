@@ -16,5 +16,5 @@ A language interpreter made in the C programming language to manage stacks and q
 ## Compilation
 To compile this project, you can use the following command:
 
-<$ make>
+<sub>$ make</sub>
 ## Allowable opcodes and what they do
