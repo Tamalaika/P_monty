@@ -37,3 +37,61 @@ To compile this project, you can use the following command:
 |rotr | the bottom of the stack becomes the top|
 |queue, stack | toggles the doubly link list implementation style|
 |nop | opcode should do nothing|
+Examples: '$ cat opcodetestfile.m'
+
+'push 1'
+
+'push 2'
+
+'push 3'
+
+'pall'
+
+'$ ./montyfile opcodetestfile.m'
+
+'3'
+
+'2'
+
+'1'
+
+'$'
+
+'$ cat opcodetestfile.m'
+
+'push 1'
+
+'push 2'
+
+'push 3'
+
+'pall'
+
+'rotl'
+
+'pall'
+
+'$ ./montyfile opcodetestfile.m'
+
+'3'
+
+'2'
+
+'1'
+
+'2'
+
+'1'
+
+'3'
+## Exit Status
+Exits with status 
+'EXIT_FAILURE'
+## Compilation
+All files were compiled on Ubuntu 14.04 LTS.
+
+All programs and functions were compiled with 'gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic'.
+## Styling
+All files have been written in the Betty Style.
+## Authors
+**Valerie Laika**
